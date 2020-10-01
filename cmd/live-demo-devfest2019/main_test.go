@@ -21,12 +21,12 @@ func TestPony(t *testing.T) {
 	defer ts.Close()
 
 	cases := map[string][]string{
-		"fluttershy":      []string{"fluttershy", "kindness"},
-		"pinkiepie":       []string{"pinkiepie", "laughter"},
-		"rainbowdash":     []string{"rainbowdash", "loyalty"},
-		"rarity":          []string{"rarity", "generosity"},
-		"twilightsparkle": []string{"twilightsparkle", "magic"},
-		"applejack":       []string{"applejack", "honesty"},
+		"fluttershy":      {"fluttershy", "kindness"},
+		"pinkiepie":       {"pinkiepie", "laughter"},
+		"rainbowdash":     {"rainbowdash", "loyalty"},
+		"rarity":          {"rarity", "generosity"},
+		"twilightsparkle": {"twilightsparkle", "magic"},
+		"applejack":       {"applejack", "honesty"},
 	}
 
 	for name, expected := range cases {

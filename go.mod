@@ -1,8 +1,8 @@
 module github.com/necrophonic/pony
 
-go 1.13
+go 1.15
 
 require (
-	github.com/davecgh/go-spew v1.1.1
+	github.com/gorilla/mux v1.8.0
 	github.com/julienschmidt/httprouter v1.3.0
 )
